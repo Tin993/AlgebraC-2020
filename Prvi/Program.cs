@@ -12,7 +12,9 @@ namespace Prvi
             Console.WriteLine(a1);
             a1.boja = "Maroon";
             Console.WriteLine(a1);
-
+            a1.PostaviSnagu(100);
+            Console.WriteLine(a1);
+            
 
         }
     }
